@@ -2,8 +2,6 @@
 
 This is DRAX, the [DC/OS](https://dcos.io) Resilience Automated Xenodiagnosis tool. It helps to test DC/OS deployments by applying a [Chaos Monkey](http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html)-inspired, proactive and invasive testing approach.
 
-![DRAX logo](img/drax-logo.png)
-
 Well, actually DRAX is a reverse acronym inspired by the Guardians of the Galaxy character Drax the Destroyer.
 
 ## Installation and usage
@@ -73,7 +71,7 @@ And invoke with default level (any taks on any app):
     {"success":true,"goners":["webserver.0fde0035-315f-11e6-aad0-1e9bbbc1653f","dummy.11a7c3bb-315f-11e6-aad0-1e9bbbc1653f"]}
 
 #### Target a specific (non-framework) app
-TODO: To figure out why this does not work
+##### TODO: To figure out why this does not work
 
 To target a specific (non-framework) app, set the level of destruction to `1` and specify the Marathon app id using the the `app` parameter. For example, `/rampage?level=1&app=dummy` will destroy random tasks of the app with the Marathon ID `/dummy`.
 
