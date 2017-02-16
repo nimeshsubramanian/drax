@@ -2,8 +2,6 @@
 
 This is DRAX, the [DC/OS](https://dcos.io) Resilience Automated Xenodiagnosis tool. It helps to test DC/OS deployments by applying a [Chaos Monkey](http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html)-inspired, proactive and invasive testing approach.
 
-![DRAX logo](img/drax-logo.png)
-
 Well, actually DRAX is a reverse acronym inspired by the Guardians of the Galaxy character Drax the Destroyer.
 
 ## Installation and usage
